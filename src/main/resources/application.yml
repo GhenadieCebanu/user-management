@@ -1,0 +1,15 @@
+server:
+  port: 8680
+  tomcat:
+    accesslog:
+      enabled: true
+
+management:
+  endpoints:
+    web:
+      base-path: /user-management
+  endpoint:
+    health:
+      enabled: true
+    info:
+      enabled: true
